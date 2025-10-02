@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+
+  /* Biar konten di tengah halaman */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  max-width: 600px;
+  width: 90%;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header h2 {
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 25px;
+  border: 4px solid #4CAF50;
+}
+
+.info {
+  margin: 25px 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.social-links h3 {
+  font-size: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 12px;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.social-links a:hover {
+  color: #333;
+}
